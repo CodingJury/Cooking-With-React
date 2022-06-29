@@ -82,39 +82,59 @@ function App() {
 const sampleRecipes = [
   {
     id: 1,
-    name: 'Plain Chicken',
-    servings: 3,
-    cookTime: '1:45',
-    instructions: "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken",
+    name: 'Maggi Noodles',
+    servings: 1,
+    cookTime: '0:05',
+    instructions: "1. Boil water.\n2. Put maggie in boul.\n3. Put maggie masala in it.\n4. Eat maggie.",
     ingredients: [
       {
         id: 1,
-        name: 'Chicken',
-        amount: '2 Pounds'
+        name: 'Maggie',
+        amount: '1 Packet'
       },
       {
         id: 2,
-        name: 'Salt',
-        amount: '1 Tbs'
+        name: 'Maggie Masala',
+        amount: '1 Packet'
       }
     ]
   },
   {
     id: 2,
-    name: 'Plain Pork',
-    servings: 5,
-    cookTime: '0:45',
-    instructions: "1. Put paprika on pork\n2. Put pork in oven\n3. Eat pork",
+    name: 'Tea',
+    servings: 2,
+    cookTime: '0:10',
+    instructions: "1. Boil water, add ginger and tea.\n2. Add sugar after 5 min.\n3. Add pinch of salt (it increases the flavour).\n4. Add Milk.\n5. Strain the tea.\n6. Drink it with chips.",
     ingredients: [
       {
         id: 1,
-        name: 'Pork',
-        amount: '3 Pounds'
+        name: 'Tea',
+        amount: '1 Tbs'
       },
       {
         id: 2,
-        name: 'Paprika',
+        name: 'Ginger',
+        amount: '5 gm'
+      },
+      {
+        id: 3,
+        name: 'Sugar',
         amount: '2 Tbs'
+      },
+      {
+        id: 4,
+        name: 'Salt',
+        amount: 'Pinch'
+      },
+      {
+        id: 5,
+        name: 'Milk',
+        amount: '1.5 Cup'
+      },
+      {
+        id: 6,
+        name: 'Chips',
+        amount: '1 Packet'
       }
     ]
   }
